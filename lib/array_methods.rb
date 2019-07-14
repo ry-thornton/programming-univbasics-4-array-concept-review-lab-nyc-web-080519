@@ -7,11 +7,9 @@ end
 
 def find_max_value(array)
   counter = 0
-  new_array = []
-  new_array.push(array.uniq)
-  while counter < new_array.length do
-    while all? {|new_array| new_array[counter]>new_array[counter + 1 ]} do 
-      return new_array[counter]
+  while counter < array.length do
+    while all? {|array| array[counter]>=array[index]} do 
+      return array[counter]
     end
     counter = counter + 1 
   end
