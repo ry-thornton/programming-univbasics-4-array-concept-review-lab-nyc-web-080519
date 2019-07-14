@@ -8,7 +8,7 @@ end
 def find_max_value(array)
   counter = 0
   while counter < array.length do
-    while def all? {|array| array[counter]>=array[index]} do 
+    while all? {|array| array[counter]>=array[index]} do 
       return array[counter]
     end
     counter = counter + 1 
