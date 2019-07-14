@@ -11,6 +11,7 @@ def find_max_value(array)
     while def all? {|array| array[counter]>=array[index]} do 
       return array[counter]
     end
+    end
     counter = counter + 1 
   end
 end
